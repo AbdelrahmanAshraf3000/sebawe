@@ -369,8 +369,8 @@ if __name__ == '__main__':
 
     # --- 2. LOAD DATA ---
     print(">>> Loading Data...")
-    tr_data, t_c, t_d, t_w, t_raw_sentences = load_data('/kaggle/input/dataset-title/train.txt')
-    va_data, v_c, v_d, v_w, _ = load_data('/kaggle/input/dataset-title/val.txt')
+    tr_data, t_c, t_d, t_w, t_raw_sentences = load_data('../data/train.txt')
+    va_data, v_c, v_d, v_w, _ = load_data('../data/val.txt')
 
     # --- 3. BUILD VOCABULARIES ---
     print(">>> Building Vocabularies...")
