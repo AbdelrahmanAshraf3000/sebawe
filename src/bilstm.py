@@ -375,8 +375,8 @@ HP = {
 }
 
 # Load Data
-tr_data, t_c, t_d, t_w, t_raw_sentences = load_data('/kaggle/input/dataset-title/train.txt')
-va_data, v_c, v_d, v_w, _ = load_data('/kaggle/input/dataset-title/val.txt')
+tr_data, t_c, t_d, t_w, t_raw_sentences = load_data('../data/train.txt')
+va_data, v_c, v_d, v_w, _ = load_data('../data/val.txt')
 
 # Build Vocabs
 c2i, d2i, w2i, CV, DV, WV = create_vocabs(t_c+v_c, t_d+v_d, t_w+v_w)
