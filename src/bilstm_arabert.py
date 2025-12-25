@@ -382,8 +382,8 @@ STRIDE = 0
 # 1. Load & Process
 print("Loading Data...")
 # Update paths as needed
-tr_raw, tc, td = load_data('/kaggle/input/dataset-title-2/train.txt')
-va_raw, vc, vd = load_data('/kaggle/input/dataset-title-2/val.txt')
+tr_raw, tc, td = load_data('../data/train.txt')
+va_raw, vc, vd = load_data('../data/val.txt')
 
 c2i, d2i, CV, DV = create_vocabs(tc+vc, td+vd)
 print(f"Vocabs: Char={CV}, Diac={DV}")
