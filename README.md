@@ -1,2 +1,2 @@
 # sebawe
-NLP Project
+Arabic Diacritization System
